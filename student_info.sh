@@ -23,3 +23,4 @@ echo -e "\n$(echo "Last name of students whose last name contains a case insensi
 
 # Query the database for courses meeting the specified conditions
 echo "$($PSQL "SELECT last_name FROM students WHERE last_name ILIKE '%sa%' OR last_name LIKE '%r_'")"
+echo -e "\nFirst name, last name, and GPA of students who have not selected a major and either their first name begins with 'D' or they have a GPA greater than 3.0:"
