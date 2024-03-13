@@ -10,3 +10,5 @@ echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE gpa = 4.0")
 
 # Print what the above sentence asks for
 echo -e "\n$(echo "All course names whose first letter is before 'D' in the alphabet:")"
+# Query the database for courses whose first letter is before 'D' in the alphabet
+echo "$($PSQL "SELECT course FROM courses WHERE course < 'D'")"
