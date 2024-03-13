@@ -27,3 +27,6 @@ echo -e "\n$(echo "Last name of students whose last name contains a case insensi
 echo -e "\nCourse name of the first five courses, in reverse alphabetical order, that have an 'e' as the second letter or end with an 's':"
 
 echo "$($PSQL "SELECT course FROM courses WHERE course LIKE '_e%' OR course LIKE '%s' ORDER BY course DESC LIMIT 5")" 
+
+echo "$($PSQL "SELECT ROUND(AVG(gpa), 2) FROM students;")"
+echo -e "\nAverage GPA of all students rounded to two decimal places:"
