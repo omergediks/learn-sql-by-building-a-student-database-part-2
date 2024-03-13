@@ -94,3 +94,10 @@ echo -e "\n~~ My Computer Science Students ~~\n"
 ~~ My Computer Science Students ~~
 echo -e "\n~~ My Computer Science Students ~~\n"
 ./student_info.sh
+SELECT student_info.sh students.sql FROM students
+\c students
+/c students
+psql --username=freecodecamp --dbname=postgres
+SELECT student_info.sh students.sql FROM students
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=students
