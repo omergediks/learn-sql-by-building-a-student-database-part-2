@@ -17,3 +17,6 @@ echo -e "\n$(echo "First name, last name, and GPA of students whose last name be
 
 # Query the database for students meeting the specified conditions
 echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE last_name >= 'R' AND (gpa > 3.8 OR gpa < 2.0)")"
+
+# Print the next sentence
+echo -e "\n$(echo "Last name of students whose last name contains a case insensitive 'sa' or have an 'r' as the second to last letter:")"
