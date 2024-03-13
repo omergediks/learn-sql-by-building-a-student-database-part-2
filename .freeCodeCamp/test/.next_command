@@ -109,3 +109,5 @@ psql -X --username=freecodecamp --dbname=students
 SELECT da student_info.sh students.sql FROM students
 psql -X --username=freecodecamp --dbname=postgres
 psql -X --username=freecodecamp --dbname=students
+.\student_info.sh
+./student_info.sh
