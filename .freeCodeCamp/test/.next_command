@@ -85,3 +85,5 @@ __vsc_prompt_cmd_original
 echo -e \n~~ My Computer Science Students ~~\n
 
 
+echo -e "\n~~ My Computer Science Students ~~\n"
+echo -e "\n~~ My Computer Science Students ~~\n"
